@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            table demo
+        </title>
+    </head>
+    <body>
+        <table border="" height="500px" width="500px">
+            <thead>
+                <tr>
+                    <th rowspan="2" bgcolor="green"><center><font color="red" size=2px" face="arial"></center>A</th>
+                    <th rowspan="2" bgcolor="red"><center><font color="blue" size=2px" face="arial"></center>B</th>
+                    <th rowspan="2" bgcolor="green"><center><font color="red" size=2px" face="arial"></center>C</th>
+                    <th rowspan="2" bgcolor="yellow"><center><font color="blue" size=2px" face="arial"></center>D</th>
+                    <th bgcolor="red"><center><font color="blue" size=2px" face="arial"></center>E</th>
+                </tr>
+                <tr>
+                    <th bgcolor="green"><center><font color="red" size=2px" face="arial"></center>E2</th>
+                </tr>
+                </thead>
+                <tr>
+
+                    <td rowspan="6" bgcolor="pink"></td>
+                </tr>
+                <tr>
+                    <td rowspan="5" bgcolor="skyblue"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" bgcolor="blue"></td>
+                </tr>
+                <tr>
+                    <td rowspan="3" bgcolor="red"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" bgcolor="green"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" bgcolor="orange"></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
